@@ -1,0 +1,176 @@
+.cardm {
+    position: relative;
+    width: 22.5rem;
+    right: 20%;
+    top: 50%;
+    height: 20rem;
+    background: var(--white);
+    border-radius: 2.5rem;
+    box-shadow: 0 1rem 5rem var(--white);
+    transition: 0.5s ease;
+}
+
+.cardm:hover {
+    height: 19rem;
+}
+
+.imgm {
+    position: absolute;
+    left: 50%;
+    top: -2.5rem;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    background: var(--white);
+    border-radius: 20rem;
+    box-shadow: 0 1rem 5rem #333;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.cardm:hover .imgm {
+    width: 13rem;
+    height: 13rem;
+}
+
+.imgm img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardm .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cardm .content .details {
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.cardm .content .details h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--black);
+    line-height: 1.2em;
+}
+
+.cardm .content .details h2 span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+/* ######################################## */
+
+.social{
+    position: relative;
+    display: flex;
+    margin-top: -1rem;
+}
+
+.social li{
+    list-style: none;
+    margin: 1.4rem;
+    color: var(--white);
+    border-radius: 5rem;
+    box-shadow: 0 1rem 5rem var(--black);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.social li:hover{
+    background: var(--black);
+}
+
+.social li i{
+    color: var(--black);
+    padding: 1rem;
+}
+
+.social li i:hover{
+    color: var(--white);
+}
+
+/* ################################### */
+
+.cardb {
+    position: relative;
+    width: 22.5rem;
+    left: 20%;
+    bottom: 50%;
+    height: 20rem;
+    background: var(--white);
+    border-radius: 2.5rem;
+    box-shadow: 0 1rem 5rem var(--white);
+    transition: 0.5s ease;
+}
+
+.cardb:hover {
+    height: 19rem;
+}
+
+.imgb {
+    position: absolute;
+    left: 50%;
+    top: -2.5rem;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    background: var(--white);
+    border-radius: 20rem;
+    box-shadow: 0 1rem 5rem #333;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.cardb:hover .imgb {
+    width: 13rem;
+    height: 13rem;
+}
+
+.imgb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardb .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cardb .content .details {
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.cardb .content .details h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--black);
+    line-height: 1.2em;
+}
+
+.cardb .content .details h2 span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    opacity: 0.6;
+}

@@ -1,0 +1,100 @@
+.para{
+    text-align: center;
+    color: var(--black);
+    padding: 4rem 10rem;
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5rem;
+    border: 0.5rem solid var(--red);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 1rem 5rem var(--red);
+}
+
+.para:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 0.5rem solid #f9bc06;
+    transform: scale(1.2);
+    box-shadow: 0 1rem 5rem #f9bc06;
+}
+
+.para span{
+    color: var(--red);
+}
+
+.para h1{
+    font-size: 3rem;
+}
+
+.para p{
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

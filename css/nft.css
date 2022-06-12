@@ -1,0 +1,240 @@
+.para {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: var(--black);
+    padding: 2rem 5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5rem;
+    border: 0.5rem solid var(--aqua);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 1rem 5rem var(--aqua);
+}
+
+.para:hover {
+    border: 0.5rem solid crimson;
+    transform: scale(1.2);
+    box-shadow: 0 1rem 5rem crimson;
+}
+
+.para span {
+    color: crimson;
+}
+
+.para h1 {
+    font-size: 3rem;
+}
+
+.para p {
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 100%;
+    color: red;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    align-items: center;
+    left: 37.5%;
+
+}
+
+img{
+    border-radius: 5rem;
+}
+
+.a1 {
+
+    position: absolute;
+    top: 130%;
+    display: flex;
+    align-items: center;
+    right: 50%;
+}
+
+.a2 {
+    position: absolute;
+    top: 250%;
+    display: flex;
+    align-items: center;
+
+}
+
+.a3 {
+    position: absolute;
+    top: 370%;
+    display: flex;
+    align-items: center;
+    right: 50%;
+
+}
+
+.a1 img {
+    padding: 1rem;
+    width: 350px;
+    transition: 0.25s ease;
+}
+.a1 img:hover{
+    transform: scale(1.08);
+}
+
+.a2 img {
+    padding: 1rem;
+    width: 350px;
+    transition: 0.25s ease;
+}
+.a2 img:hover{
+    transform: scale(1.08);
+}
+
+.a3 img {
+    padding: 1rem;
+    width: 350px;
+    align-items: center;
+    transition: 0.25s ease;
+}
+.a3 img:hover{
+    transform: scale(1.08);
+}
+
+.a4 img{
+    width: 350px;
+    padding: 1rem;
+    transition: 0.25s ease;
+}
+.a4 img:hover{
+    transform: scale(1.08);
+}
+
+.a5 img{
+    width: 350px;
+    padding: 1rem;
+    transition: 0.25s ease;
+}
+.a5 img:hover{
+    transform: scale(1.08);
+}
+
+.a6 img{
+    width: 350px;
+    padding: 1rem;
+    transition: 0.25s ease;
+}
+.a6 img:hover{
+    transform: scale(1.08);
+}
+
+.cp {
+    position: absolute;
+    top: 450%;
+    color: red;
+    background-color: black;
+    align-items: center;
+    left: 35%
+}
+
+.a4 {
+    position: absolute;
+    top: 500%;
+    display: flex;
+    align-items: center;
+    right: 113px;
+
+}
+
+.a5 {
+    position: absolute;
+    top: 620%;
+    display: flex;
+    align-items: center;
+    right: 50%;
+}
+
+.a6 {
+    position: absolute;
+    top: 740%;
+    display: flex;
+    align-items: center;
+    left: 50%;
+}
+
+
+.cx {
+    position: absolute;
+    top: 840%;
+    color: red;
+    background-color: black;
+    align-items: center;
+    left: 40%
+}
+
+
+
+
+
+
+.a7 {
+
+    position: absolute;
+    top: 890%;
+    display: flex;
+    align-items: center;
+    right: 50%;
+}
+
+.a8 {
+
+    position: absolute;
+    top: 1010%;
+    display: flex;
+    align-items: center;
+    left: 50%;
+
+}
+
+.a9 {
+
+    position: absolute;
+    top: 1130%;
+    display: flex;
+    align-items: center;
+    right: 50%;
+}
+
+.a7 img {
+    width: 350px;
+    padding: 1rem;
+    transition: 0.25s ease;
+}
+.a7 img:hover{
+    transform: scale(1.08);
+}
+
+
+.a8 img {
+    width: 350px;
+    padding: 1rem;
+    transition: 0.25s ease;
+}
+.a8 img:hover{
+    transform: scale(1.08);
+}
+
+
+.a9 img {
+    width: 350px;
+    padding: 1rem;
+    transition: 0.25s ease;
+}
+.a9 img:hover{
+    transform: scale(1.08);
+}
+
+
+h3{
+    color: white;
+}
